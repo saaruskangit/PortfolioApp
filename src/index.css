@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  background-image: url('./assets/images/242.jpg');
+  
+  background-size: cover; /* Varmistaa, että kuva peittää koko taustan */
+  background-position: center; /* Asettaa kuvan keskelle taustaa */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
